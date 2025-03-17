@@ -1,0 +1,30 @@
+name: driving_vllm_bench_videochat2
+channels:
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - bzip2=1.0.8=h4bc722e_7
+  - ca-certificates=2024.8.30=hbcca054_0
+  - ld_impl_linux-64=2.43=h712a8e2_2
+  - libexpat=2.6.3=h5888daf_0
+  - libffi=3.4.2=h7f98852_5
+  - libgcc=14.2.0=h77fa898_1
+  - libgcc-ng=14.2.0=h69a702a_1
+  - libgomp=14.2.0=h77fa898_1
+  - libnsl=2.0.1=hd590300_0
+  - libsqlite=3.47.0=hadc24fc_1
+  - libuuid=2.38.1=h0b41bf4_0
+  - libxcrypt=4.4.36=hd590300_1
+  - libzlib=1.3.1=hb9d3cd8_2
+  - ncurses=6.5=he02047a_1
+  - openssl=3.3.2=hb9d3cd8_0
+  - pip=24.3.1=pyh8b19718_0
+  - python=3.11.10=hc5c86c4_3_cpython
+  - readline=8.2=h8228510_1
+  - setuptools=75.3.0=pyhd8ed1ab_0
+  - tk=8.6.13=noxft_h4845f30_101
+  - tzdata=2024b=hc8b5060_0
+  - wheel=0.44.0=pyhd8ed1ab_0
+  - xz=5.2.6=h166bdaf_0
+prefix: /home/tongzeng/mambaforge/envs/driving_vllm_bench_videochat2

@@ -1,0 +1,100 @@
+{"question_field": "Objects_Animals", "video_id": "151866556", "ground_truth": "A. 1", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Objects_Animals", "video_id": "151866556", "ground_truth": "B. 1", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Traffic_Flow", "video_id": "151859869", "ground_truth": "A. Not divided - simple 2-way trafficway", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Traffic_Flow", "video_id": "151859869", "ground_truth": "B. Not divided - simple 2-way trafficway", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Traffic_Flow", "video_id": "151859869", "ground_truth": "C. Not divided - simple 2-way trafficway", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Crash_Severity_1", "video_id": "51722163", "ground_truth": "A. III  - Minor Crash", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Crash_Severity_1", "video_id": "51722163", "ground_truth": "B. III  - Minor Crash", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Crash_Severity_1", "video_id": "51722163", "ground_truth": "C. III  - Minor Crash", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Traffic_Control", "video_id": "151609735", "ground_truth": "A. Construction signs/warnings", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Traffic_Control", "video_id": "151609735", "ground_truth": "B. Construction signs/warnings", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Traffic_Control", "video_id": "151609735", "ground_truth": "C. Construction signs/warnings", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Traffic_Control", "video_id": "151609735", "ground_truth": "D. Construction signs/warnings", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Locality", "video_id": "29730846", "ground_truth": "A. Moderate Residential", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Locality", "video_id": "29730846", "ground_truth": "B. Moderate Residential", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Locality", "video_id": "29730846", "ground_truth": "C. Moderate Residential", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Locality", "video_id": "29730846", "ground_truth": "D. Moderate Residential", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "V1_Post_Maneuver_Control_1", "video_id": "151589163", "ground_truth": "A. Skidded longitudinally", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "V1_Post_Maneuver_Control_1", "video_id": "151589163", "ground_truth": "B. Skidded longitudinally", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "V1_Post_Maneuver_Control_1", "video_id": "151589163", "ground_truth": "C. Skidded longitudinally", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Relation_to_Junction", "video_id": "151568867", "ground_truth": "A. Interchange area", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Relation_to_Junction", "video_id": "151568867", "ground_truth": "B. Interchange area", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Relation_to_Junction", "video_id": "151568867", "ground_truth": "C. Interchange area", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Relation_to_Junction", "video_id": "151568867", "ground_truth": "D. Interchange area", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "V1_Evasive_Maneuver_1", "video_id": "35258185", "ground_truth": "A. No reaction", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "V1_Evasive_Maneuver_1", "video_id": "35258185", "ground_truth": "B. No reaction", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "V1_Evasive_Maneuver_1", "video_id": "35258185", "ground_truth": "C. No reaction", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Construction_Zone", "video_id": "60631693", "ground_truth": "A. Not construction zone-related", "original_response": "A. Not construction zone-related", "extracted_response_letter": "A"}
+{"question_field": "Construction_Zone", "video_id": "60631693", "ground_truth": "B. Not construction zone-related", "original_response": "B. Not construction zone-related", "extracted_response_letter": "B"}
+{"question_field": "Construction_Zone", "video_id": "60631693", "ground_truth": "C. Not construction zone-related", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Event_Nature_1", "video_id": "142008071", "ground_truth": "A. Conflict with parked vehicle", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Event_Nature_1", "video_id": "142008071", "ground_truth": "B. Conflict with parked vehicle", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Event_Nature_1", "video_id": "142008071", "ground_truth": "C. Conflict with parked vehicle", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Event_Nature_1", "video_id": "142008071", "ground_truth": "D. Conflict with parked vehicle", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "135126591", "ground_truth": "A. Changing lanes", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "135126591", "ground_truth": "B. Changing lanes", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "135126591", "ground_truth": "C. Changing lanes", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "135126591", "ground_truth": "D. Changing lanes", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "151338033", "ground_truth": "A. Pedestrian dynamic, in roadway", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "151338033", "ground_truth": "B. Pedestrian dynamic, in roadway", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "151338033", "ground_truth": "C. Pedestrian dynamic, in roadway", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Non_Motorist_2_Pre_Incident_Maneuver", "video_id": "151338033", "ground_truth": "D. Pedestrian dynamic, in roadway", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Traffic_Flow", "video_id": "129878683", "ground_truth": "A. Divided (median strip or barrier)", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Traffic_Flow", "video_id": "129878683", "ground_truth": "B. Divided (median strip or barrier)", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Traffic_Flow", "video_id": "129878683", "ground_truth": "C. Divided (median strip or barrier)", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Fault", "video_id": "142005216", "ground_truth": "A. Subject driver", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Fault", "video_id": "142005216", "ground_truth": "B. Subject driver", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Traffic_Control", "video_id": "151859996", "ground_truth": "A. Slow or warning sign, other", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Traffic_Control", "video_id": "151859996", "ground_truth": "B. Slow or warning sign, other", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Traffic_Control", "video_id": "151859996", "ground_truth": "C. Slow or warning sign, other", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Traffic_Control", "video_id": "151859996", "ground_truth": "D. Slow or warning sign, other", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "143062675", "ground_truth": "A. Decelerating in traffic lane", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "143062675", "ground_truth": "B. Decelerating in traffic lane", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "143062675", "ground_truth": "C. Decelerating in traffic lane", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "143062675", "ground_truth": "D. Decelerating in traffic lane", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "29858004", "ground_truth": "A. Stopped in traffic lane", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "29858004", "ground_truth": "B. Stopped in traffic lane", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "29858004", "ground_truth": "C. Stopped in traffic lane", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Pre_Incident_Maneuver", "video_id": "29858004", "ground_truth": "D. Stopped in traffic lane", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "61385323", "ground_truth": "A. 2", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "61385323", "ground_truth": "B. 2", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "61385323", "ground_truth": "C. 2", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "61385323", "ground_truth": "D. 2", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Precipitating_Event", "video_id": "151607768", "ground_truth": "A. Other vehicle ahead - slowed and stopped 2 seconds or less", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Precipitating_Event", "video_id": "151607768", "ground_truth": "B. Other vehicle ahead - slowed and stopped 2 seconds or less", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Precipitating_Event", "video_id": "151607768", "ground_truth": "C. Other vehicle ahead - slowed and stopped 2 seconds or less", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Precipitating_Event", "video_id": "151607768", "ground_truth": "D. Other vehicle ahead - slowed and stopped 2 seconds or less", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Construction_Zone", "video_id": "131785443", "ground_truth": "A. Construction Zone (occurred in zone)", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Construction_Zone", "video_id": "131785443", "ground_truth": "B. Construction Zone (occurred in zone)", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Construction_Zone", "video_id": "131785443", "ground_truth": "C. Construction Zone (occurred in zone)", "original_response": "B. Not construction zone-related", "extracted_response_letter": "B"}
+{"question_field": "Crash_Severity_1", "video_id": "29714777", "ground_truth": "A. III  - Minor Crash", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Crash_Severity_1", "video_id": "29714777", "ground_truth": "B. III  - Minor Crash", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Crash_Severity_1", "video_id": "29714777", "ground_truth": "C. III  - Minor Crash", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Event_Nature_1", "video_id": "61427015", "ground_truth": "A. Conflict with oncoming traffic", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Event_Nature_1", "video_id": "61427015", "ground_truth": "B. Conflict with oncoming traffic", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Event_Nature_1", "video_id": "61427015", "ground_truth": "C. Conflict with oncoming traffic", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Event_Nature_1", "video_id": "61427015", "ground_truth": "D. Conflict with oncoming traffic", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "V1_Evasive_Maneuver_1", "video_id": "151600560", "ground_truth": "A. Braked and steered right", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "V1_Evasive_Maneuver_1", "video_id": "151600560", "ground_truth": "B. Braked and steered right", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "V1_Evasive_Maneuver_1", "video_id": "151600560", "ground_truth": "C. Braked and steered right", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Contiguous_Trvl_Lanes", "video_id": "29857503", "ground_truth": "A. 5", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Contiguous_Trvl_Lanes", "video_id": "29857503", "ground_truth": "B. 5", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Contiguous_Trvl_Lanes", "video_id": "29857503", "ground_truth": "C. 5", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Contiguous_Trvl_Lanes", "video_id": "29857503", "ground_truth": "D. 5", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "V1_Post_Maneuver_Control_1", "video_id": "142351442", "ground_truth": "A. Control maintained", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "V1_Post_Maneuver_Control_1", "video_id": "142351442", "ground_truth": "B. Control maintained", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "V1_Post_Maneuver_Control_1", "video_id": "142351442", "ground_truth": "C. Control maintained", "original_response": "C. Control maintained", "extracted_response_letter": "C"}
+{"question_field": "Fault", "video_id": "116163141", "ground_truth": "A. Other Involved Driver", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Fault", "video_id": "116163141", "ground_truth": "B. Other Involved Driver", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Grade", "video_id": "150780373", "ground_truth": "A. Level", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Grade", "video_id": "150780373", "ground_truth": "B. Level", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Grade", "video_id": "150780373", "ground_truth": "C. Level", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Incident_Type_1", "video_id": "60632621", "ground_truth": "A. Animal-related", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Incident_Type_1", "video_id": "60632621", "ground_truth": "B. Animal-related", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Incident_Type_1", "video_id": "60632621", "ground_truth": "C. Animal-related", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Incident_Type_1", "video_id": "60632621", "ground_truth": "D. Animal-related", "original_response": "C", "extracted_response_letter": "C"}
+{"question_field": "Objects_Animals", "video_id": "61216958", "ground_truth": "A. 0", "original_response": "A", "extracted_response_letter": "A"}
+{"question_field": "Objects_Animals", "video_id": "61216958", "ground_truth": "B. 0", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "151865122", "ground_truth": "A. 1", "original_response": "B", "extracted_response_letter": "B"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "151865122", "ground_truth": "B. 1", "original_response": "D", "extracted_response_letter": "D"}
+{"question_field": "Thru_Trvl_Lanes", "video_id": "151865122", "ground_truth": "C. 1", "original_response": "B", "extracted_response_letter": "B"}

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "driving-video-bench"
+authors = [
+    {name = "Tong Zeng", email = "tongzeng@vt.edu"}
+]
+dynamic = ["version"]
+readme = "README.md"
+description = "Are Vision LLMs Road-Ready? A Comprehensive Benchmark for Safety-Critical Driving Video Understanding"
+classifiers = [
+    "Intended Audience :: Science/Research :: Developers",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+    # Add your own dependencies here
+    "pytorch",
+    "transformers",
+    "Pillow",
+    "peft",
+    "deepspeed",
+    "ollama",
+    "opencv-python",
+    "pillow",
+    "pydantic",
+    "imageio",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/tong-zeng/DVBench"
+Repository = "https://github.com/tong-zeng/DVBench"
+Documentation = "https://github.com/tong-zeng/DVBench/blob/main/README.md"
+
+[project.optional-dependencies]
+dev = [
+    "jupyterlab",
+    "notebook",
+    "hatch",
+]
