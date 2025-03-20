@@ -12,9 +12,115 @@ DVBench is a comprehensive benchmark designed to evaluate the video understandin
 ### Main Contributions
 
 - Problem Identification: We are among the first to investigate VLLMs' capabilities in perception and reasoning within safety-critical (Crash, Near-Crash) driving scenarios and systematically define the hierarchical abilities essential for evaluating the safety of autonomous driving systems in high-risk contexts.
+
 - Benchmark Development: We introduce DVBench, the first comprehensive benchmark for safety-critical driving video understanding, featuring 10,000 curated multiple-choice questions across 25 key driving-related abilities. DVBench is designed to rigorously assess perception and reasoning in dynamic driving environments.
 
 - Systematic Evaluation: We evaluate 14 state-of-the-art VLLMs, providing an in-depth analysis of their strengths and limitations in safety-critical driving scenarios. This paper establishes structured evaluation protocols and infrastructure to enable fair comparisons and guide future advancements in VLLMs for autonomous driving.
+
+### VLLM Performance
+<h4>Detailed Performance of the VLLMs on DVBench using GroupEval (L2 abilities)</h2>
+
+<p>The following abbreviations are used:</p>
+<ul>
+    <li><b>Perception Abilities:</b> EC (Environmental Conditions), PI (Physical Infrastructure), OC (Operational Constraints), Obj (Objects), Zone (Zones)</li>
+    <li><b>Reasoning Abilities:</b> EU (Event Understanding), BMA (Behavior & Maneuver Analysis), SR (Spatial Reasoning), RHA (Risk & Hazard Assessment), CR (Causal & Responsibility)</li>
+</ul>
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><strong>VLLMs</strong></th>
+      <th colspan="6" style="text-align:center;"><strong>Perception</strong></th>
+      <th colspan="6" style="text-align:center;"><strong>Reasoning</strong></th>
+    </tr>
+    <tr>
+      <th><strong>Overall</strong></th>
+      <th><strong>EC</strong></th>
+      <th><strong>PI</strong></th>
+      <th><strong>OC</strong></th>
+      <th><strong>Obj</strong></th>
+      <th><strong>Zone</strong></th>
+      <th><strong>Overall</strong></th>
+      <th><strong>EU</strong></th>
+      <th><strong>BMA</strong></th>
+      <th><strong>SR</strong></th>
+      <th><strong>RHA</strong></th>
+      <th><strong>CR</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LLaMA-VID-7B<sup>[1]</sup></td>
+      <td>12.2%</td><td>26.7%</td><td>2.8%</td><td>13.5%</td><td>11.4%</td><td>9.1%</td>
+      <td>10.4%</td><td>2.0%</td><td>3.3%</td><td>7.5%</td><td>19.3%</td><td>11.4%</td>
+    </tr>
+    <tr>
+      <td>LLaMA-VID-13B<sup>[1]</sup></td>
+      <td>12.8%</td><td>30.0%</td><td>0.0%</td><td>8.1%</td><td>15.9%</td><td>12.1%</td>
+      <td>9.6%</td><td>3.9%</td><td>0.0%</td><td>6.0%</td><td>21.6%</td><td>4.5%</td>
+    </tr>
+    <tr>
+      <td>LLaVA-One-Vision-0.5B<sup>[2]</sup></td>
+      <td>15.0%</td><td>40.0%</td><td>2.8%</td><td>16.2%</td><td>13.6%</td><td>6.1%</td>
+      <td>11.1%</td><td>5.9%</td><td>10.0%</td><td>9.0%</td><td>21.6%</td><td>0.0%</td>
+    </tr>
+    <tr>
+      <td>Qwen2-VL-7B<sup>[3]</sup></td>
+      <td>25.6%</td><td>43.3%</td><td>2.8%</td><td>27.0%</td><td>27.3%</td><td>30.3%</td>
+      <td>27.1%</td><td>33.3%</td><td>13.3%</td><td>17.9%</td><td>33.0%</td><td>31.8%</td>
+    </tr>
+    <tr>
+      <td>LLaVA-Next-Video-7B<sup>[4]</sup></td>
+      <td>18.3%</td><td>43.3%</td><td>2.8%</td><td>16.2%</td><td>18.2%</td><td>15.2%</td>
+      <td>16.1%</td><td>7.8%</td><td>13.3%</td><td>10.4%</td><td>27.3%</td><td>13.6%</td>
+    </tr>
+    <tr>
+      <td>Video-LLaVa-7B<sup>[5]</sup></td>
+      <td>21.1%</td><td>70.0%</td><td>2.8%</td><td>8.1%</td><td>22.7%</td><td>9.1%</td>
+      <td>18.6%</td><td>5.9%</td><td>13.3%</td><td>10.4%</td><td>34.1%</td><td>18.2%</td>
+    </tr>
+    <tr>
+      <td>PLLaVA-7B<sup>[6]</sup></td>
+      <td>20.0%</td><td>56.7%</td><td>2.8%</td><td>10.8%</td><td>18.2%</td><td>18.2%</td>
+      <td>17.9%</td><td>3.9%</td><td>10.0%</td><td>10.4%</td><td>34.1%</td><td>18.2%</td>
+    </tr>
+    <tr>
+      <td>LLaVA-Next-Video-34B<sup>[4]</sup></td>
+      <td>23.3%</td><td>50.0%</td><td>25.0%</td><td>21.6%</td><td>11.4%</td><td>15.2%</td>
+      <td>16.1%</td><td>5.9%</td><td>10.0%</td><td>17.9%</td><td>27.3%</td><td>6.8%</td>
+    </tr>
+    <tr>
+      <td>LLaVA-One-Vision-7B<sup>[2]</sup></td>
+      <td>28.3%</td><td>70.0%</td><td>19.4%</td><td>21.6%</td><td>20.5%</td><td>18.2%</td>
+      <td>20.0%</td><td>3.9%</td><td>20.0%</td><td>16.4%</td><td>37.5%</td><td>9.1%</td>
+    </tr>
+    <tr>
+      <td>PLLaVA-13B<sup>[6]</sup></td>
+      <td>23.9%</td><td>63.3%</td><td>11.1%</td><td>18.9%</td><td>18.2%</td><td>15.2%</td>
+      <td>15.4%</td><td>5.9%</td><td>0.0%</td><td>9.0%</td><td>34.1%</td><td>9.1%</td>
+    </tr>
+    <tr>
+      <td>Qwen2-VL-72B<sup>[3]</sup></td>
+      <td>32.8%</td><td>50.0%</td><td>25.0%</td><td>35.1%</td><td>22.7%</td><td>36.4%</td>
+      <td>33.9%</td><td>41.2%</td><td>13.3%</td><td>31.3%</td><td>42.0%</td><td>27.3%</td>
+    </tr>
+    <tr>
+      <td>Qwen2-VL-2B<sup>[3]</sup></td>
+      <td>31.7%</td><td>76.7%</td><td>27.8%</td><td>24.3%</td><td>20.5%</td><td>18.2%</td>
+      <td>26.4%</td><td>7.8%</td><td>26.7%</td><td>16.4%</td><td>44.3%</td><td>27.3%</td>
+    </tr>
+    <tr>
+      <td>MiniCPM-V<sup>[7]</sup></td>
+      <td>39.4%</td><td>70.0%</td><td>19.4%</td><td>45.9%</td><td>36.4%</td><td>30.3%</td>
+      <td>35.4%</td><td>39.2%</td><td>16.7%</td><td>22.4%</td><td>53.4%</td><td>27.3%</td>
+    </tr>
+    <tr>
+      <td>LLaVA-One-Vision-72B<sup>[2]</sup></td>
+      <td>36.7%</td><td>66.7%</td><td>16.7%</td><td>40.5%</td><td>34.1%</td><td>30.3%</td>
+      <td>36.4%</td><td>33.3%</td><td>30.0%</td><td>29.9%</td><td>46.6%</td><td>34.1%</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 🛠️ Installation Guide
 
